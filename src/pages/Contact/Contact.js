@@ -28,10 +28,10 @@ const Contact = (props) => {
             <div className={"col-md-6 col-sm-12 " + classes.right_contact}>
                 <h2>Contact Me.</h2>
                 <form ref={form} onSubmit={sendEmail}>
-                    <input type="text" name="name" id="name" placeholder="Othman FROUKH" />
-                    <input type="email" name="email" id="email" placeholder="contact@othmanfroukh.com" />
-                    <input type="text" name="Subject" id="Subject" placeholder="Subject" />
-                    <textarea name="message" id="message" cols="30" rows="10" placeholder="write your message here">
+                    <input type="text" name="name" id="name" placeholder="Othman FROUKH" required/>
+                    <input type="email" name="email" id="email" placeholder="contact@othmanfroukh.com" required />
+                    <input type="text" name="Subject" id="Subject" placeholder="Subject" required />
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="write your message here" required>
 
                     </textarea>
                     <button type="submit"> Send </button>
