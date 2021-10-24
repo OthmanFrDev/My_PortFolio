@@ -46,6 +46,7 @@ img{
     height: 50px;
     width: 300px;
     overflow: hidden;
+    margin: 0 auto;
 }
 .title_wrapper{
     height: 100%;
