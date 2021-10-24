@@ -1,6 +1,7 @@
 import React from 'react'
 import * as AiIcons from 'react-icons/ai'
 import * as IoIcons from 'react-icons/io'
+import * as GrIcons from 'react-icons/gr'
 export const navigationArray=[
     {
         title: "Home",
@@ -22,7 +23,7 @@ export const navigationArray=[
     },
     {
         title: "Contact me",
-        icon:<AiIcons.AiFillInstagram/>,
+        icon:<AiIcons.AiOutlineMessage/>,
         link: "/contact",
         cName:'nav-text'    
     },

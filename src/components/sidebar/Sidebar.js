@@ -10,7 +10,7 @@ const Sidebar = () => {
     const showSidebar = () => setSidebar(!sidebar)
     return (
         <>
-            <IconContext.Provider value={{ color: "#fff" }}>
+            <IconContext.Provider value={{ color: "#ffffff" }}>
                 <div className={sidebar ? "Sidebar active" : "Sidebar"}>
                     <div className="left-sidebar" style={{marginLeft:"10px"}}>
                         <Link to='#' className={"menu-bars"} onClick={showSidebar}>
