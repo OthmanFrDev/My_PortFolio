@@ -22,14 +22,14 @@ const Sidebar = () => {
                         </Link>
                     </div>
                     <div className="right-sidebar">
-                        <Link to='#' className={"menu-bars-contact"}>
+                        <a href='mailto:othmanfroukh@gmail.com?body=Hey Mr Othman,' className={"menu-bars-contact"}>
                             <AiIcons.AiOutlineMail />
-                            <a className="span" href="mailto:othmanfroukh@gmail.com?body=Hey Mr Othman,">othmanfroukh@gmail.com</a>
-                        </Link>
-                        <Link to='#' className={"menu-bars-contact"}>
+                            <span className="span">othmanfroukh@gmail.com</span>
+                        </a>
+                        <a href='tel:+212649440167' className={"menu-bars-contact"} >
                             <FiIcons.FiPhoneCall />
-                            <a href="tel:+212649440167" className="span">+212-6-49-44-01-67</a>
-                        </Link>
+                            <span className="span">+212-6-49-44-01-67</span>
+                        </a>
                     </div>
 
                 </div>
