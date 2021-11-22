@@ -109,9 +109,12 @@
         height: 100%;
     } 
     .right-sidebar{
-        display: none;
+        display: grid;
     }
     .Sidebar{
         height: 80px;
+    }
+    .menu-bars-contact{
+        font-size: smaller;
     }
 }
